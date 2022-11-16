@@ -1,0 +1,52 @@
+@import '../../../style/variables.scss';
+
+
+.gameover-wrapper {
+
+    .buttons-menu {
+        display: flex;
+        justify-content: center;
+        
+        .menu-button {
+            font-size: $buttonText;
+            padding: 2px 5px;
+            margin: 10px 10px;
+            background-color: $green5;
+            cursor: pointer;
+
+            display: flex;
+            justify-content: center;
+
+            .menu-button-hover-icon {
+                padding: 0 5px;
+                font-size: 0px;
+                transition: font-size 0.4s;
+            }
+            &:hover .menu-button-hover-icon{
+                font-size: $buttonText;
+            }
+        }
+        .conf {
+            width: 200px;
+            height: 23px;
+        }
+    }
+    .warning-gameover-menu {
+        height: 100vh;
+        width: 100vw;
+        background-color: $greenT;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .warning-text {
+            font-size: $warningText;
+            margin: 20px auto;
+            cursor: default;
+        }
+    }
+}

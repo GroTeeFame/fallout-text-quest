@@ -1,0 +1,53 @@
+@import '../../../style/variables.scss';
+
+.option-buttons-wrapper {
+
+    // height: 100px;
+    height: 12vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    margin-top: 5px;
+
+    .option-button {
+        height: 20px;
+        width: 100%;
+        font-size: $buttonText;
+        margin: 2px auto;
+        background-color: $transparent;
+        border: solid $green3 2px;
+        border-radius: 1px;
+
+        display: flex;
+        justify-content: start;
+
+        .hover-icon {
+            padding-left: 10px;
+            font-size: 0px;
+            transition: font-size 0.4s;
+        }
+        &:hover .hover-icon{
+            font-size: $buttonText;
+        }
+        .option-text {
+            font-size: $buttonText;
+            width: 100%;
+            text-align: start;
+            padding-left: 20px;
+        }
+        .option-icon {
+            font-size: 12px;
+            padding: 0 10px;
+            color: transparent;  
+            text-shadow: 0 0 0 $green1;
+        }
+    }
+    .action {
+
+    }
+    .move {
+
+    }
+}

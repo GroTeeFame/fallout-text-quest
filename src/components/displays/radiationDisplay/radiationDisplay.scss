@@ -1,0 +1,19 @@
+@import '../../../style/variables.scss';
+
+
+.radiation-wrapper {
+    height: 100%;
+
+    .radiation-display {
+        height: 100%;
+        padding: 5px 5px;
+        border: solid $green3 3px;
+        border-radius: 1px;
+
+        .radiation-text {
+            display: block;
+            margin: 0 auto;
+            font-size: $warningText;
+        }
+    }
+}

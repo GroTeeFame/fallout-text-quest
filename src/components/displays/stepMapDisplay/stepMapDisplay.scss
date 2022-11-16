@@ -1,0 +1,105 @@
+@import '../../../style/variables.scss';
+
+.stepmap-wrapper{
+    height: 10vh;
+    width: 78vw;
+
+    .stepmap-text {
+        font-size: $warningText;
+        margin: 5px 0;
+    }
+    .warning-stepmap-window {
+        height: 100vh;
+        width: 100vw;
+        background-color: $greenT;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .warning-text {
+            font-size: $warningText;
+            margin: 20px auto;
+            cursor: default;
+        }
+    }
+    .buttons-menu {
+        display: flex;
+        justify-content: center;
+        
+        .menu-button {
+            font-size: $buttonText;
+            padding: 2px 5px;
+            margin: 10px 10px;
+            background-color: $green5;
+            cursor: pointer;
+        }
+        .conf {
+            width: 100px;
+            height: 23px;
+            transition: width 0.4s;
+            &:hover {
+                width: 110px;
+            }
+        }
+    }
+    .stepmap-buttons-wrapper {
+
+        height: 8vh;
+        overflow-y: scroll;
+
+        .map-button {
+            font-size: $buttonText;
+            width: 30px;
+            padding: 2px 5px;
+            margin: 5px 5px;
+            background-color: $green5;
+            cursor: pointer;
+            &:last-child {
+                // width: 40px;
+                padding: 2px 2px;
+                background-color: $greenTB;
+                cursor: default;
+            }
+        }
+        .disabled{
+            pointer-events: none;
+        }
+        .step-button {
+            font-size: $buttonText;
+            transition: all 0.4s;
+            &:hover {
+                font-size: $buttonTextPlusTwo;
+                padding: 0 3px;
+                margin: 5px 8px;
+            }
+        }
+    }
+    .map-button {
+        font-size: $buttonText;
+        width: 30px;
+        padding: 2px 5px;
+        margin: 5px 5px;
+        background-color: $green5;
+        cursor: pointer;
+        &:last-child {
+            // width: 40px;
+            padding: 2px 2px;
+            background-color: $greenTB;
+            cursor: default;
+        }
+    }
+    .step-button {
+        font-size: $buttonText;
+        transition: all 0.4s;
+        &:hover {
+            font-size: $buttonTextPlusTwo;
+            padding: 0 3px;
+            margin: 5px 8px;
+        }
+    }
+    
+}

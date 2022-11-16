@@ -1,0 +1,17 @@
+@import '../../../style/variables.scss';
+
+.textdisplay-wrapper {
+    height: 38vh;
+    width: 100%;
+    overflow-y: scroll;
+
+    .textdisplay-message {
+        display: block;
+        padding: 3px 0;
+    }
+    .dummy{
+        float: left;
+        clear: both;
+    }
+}
+
