@@ -8,12 +8,26 @@
         height: 100%;
         padding: 5px 5px;
         border: solid $green3 3px;
-        border-radius: 1px;
+        border-radius: 1px; 
 
         .radiation-text {
             display: block;
             margin: 0 auto;
             font-size: $warningText;
+        }
+    }
+}
+@media screen and (max-width: 660px) {
+    .radiation-wrapper {
+    
+        .radiation-display {
+            height: 100%;
+    
+            .radiation-text {
+                display: block;
+                margin: 0 auto;
+                font-size: $warningText;
+            }
         }
     }
 }

@@ -67,3 +67,41 @@
         }
     }
 }
+
+@media screen and (max-width: 660px) {
+    .buttons-menu-wrapper{
+
+        .buttons-menu {
+
+            display: flex;
+
+            .menu-button {
+                height: 80%;
+                width: 80%;
+                margin: 3px 5px;
+                align-items: center;
+                .menu-button-hover-icon {
+
+                }
+                .menu-button-option-text {
+
+                }
+            }
+            .conf {
+                width: 100px;
+                height: 23px;
+                transition: width 0.4s;
+            }
+            .main-button {
+
+            }
+        }
+        .warning-buttons-menu {
+            margin: 0 auto;
+            align-items: center;
+            .warning-text {
+                width: 80%;
+            }
+        }
+    }
+}

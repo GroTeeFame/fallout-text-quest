@@ -22,3 +22,24 @@
         }
     }
 }
+
+@media screen and (max-width: 660px) {
+    .inventory-wrapper {
+        margin: 0;
+        height: 100%;
+        margin-left: -3px;
+        .inventory-display {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0 auto;
+            width: 100%;
+            .inventory-item {
+                width: 30%;
+                padding: 0;
+                border: none;
+                font-size: $warningText;
+                margin: 0 5px;
+            }
+        }
+    }
+}

@@ -2,9 +2,8 @@
 
 .option-buttons-wrapper {
 
-    // height: 100px;
     height: 12vh;
-
+ 
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -49,5 +48,20 @@
     }
     .move {
 
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .option-buttons-wrapper {
+        height: 17vh;
+        .option-button {
+            height: 30px;
+            align-items: center;
+            .hover-icon {
+                padding-left: 10px;
+                font-size: 0px;
+                transition: font-size 0.4s;
+            }
+        }
     }
 }

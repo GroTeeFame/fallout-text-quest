@@ -2,7 +2,7 @@
 
 .stepmap-wrapper{
     height: 10vh;
-    width: 78vw;
+    width: 100%;
 
     .stepmap-text {
         font-size: $warningText;
@@ -102,4 +102,17 @@
         }
     }
     
+}
+
+@media screen and (max-width: 660px) {
+    .stepmap-wrapper{
+        .warning-stepmap-window {
+            .warning-text {
+                width: 80%;
+            }
+        }
+        .stepmap-buttons-wrapper {
+            height: 5vh;
+        }
+    }
 }
