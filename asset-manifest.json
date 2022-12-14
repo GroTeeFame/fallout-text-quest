@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/fallout-text-quest/static/css/main.03ee90b4.css",
+    "main.css": "/fallout-text-quest/static/css/main.b54dcdb3.css",
     "main.js": "/fallout-text-quest/static/js/main.b1bdb12a.js",
     "static/media/bg.png": "/fallout-text-quest/static/media/bg.eb1415124a78c84215bf.png",
     "index.html": "/fallout-text-quest/index.html",
-    "main.03ee90b4.css.map": "/fallout-text-quest/static/css/main.03ee90b4.css.map",
+    "main.b54dcdb3.css.map": "/fallout-text-quest/static/css/main.b54dcdb3.css.map",
     "main.b1bdb12a.js.map": "/fallout-text-quest/static/js/main.b1bdb12a.js.map"
   },
   "entrypoints": [
-    "static/css/main.03ee90b4.css",
+    "static/css/main.b54dcdb3.css",
     "static/js/main.b1bdb12a.js"
   ]
 }
